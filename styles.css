@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #2b283a;
+}
+
+/* Typogaphy */
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #d0aaff;
+}
+
+/* Links */
+
+.links {
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
+
+.links:hover {
+  color: #d4b44c;
+}
+
+.links:active {
+  color: #d4b44c;
+}
+
+/* Layout */
+
+header {
+  background-color: #5f29a3;
+  color: whitesmoke;
+  padding: 45px 0;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.main-img {
+  width: 100%;
+}
+
+.container {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.purple-bg {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.container-img {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.container-img > img {
+  width: 300px;
+  border-radius: 4.6px;
+}
